@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiverso Roster - O Arquivo Geek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <main class="container">
+        <header class="cabecalho-principal">
+            <h1>MULTIVERSO_ROSTER</h1>
+            <p>Selecione um perfil para acessar os dados restritos.</p>
+        </header>
+
+        <div id="grade-personagens" class="grid-personagens"></div>
+    </main>
+
+    <div id="modal-detalhes" class="modal-overlay">
+        <div class="modal-container">
+            <button id="btn-fechar-modal" class="btn-fechar">X</button>
+            
+            <div class="modal-conteudo">
+                <aside class="modal-imagem-area">
+                    <img id="modal-img" src="" alt="Imagem do Personagem">
+                </aside>
+                
+                <section class="modal-info-area">
+                    <h2 id="modal-nome"></h2>
+                    <h3 id="modal-universo"></h3>
+                    <p id="modal-bio"></p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
