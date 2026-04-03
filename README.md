@@ -19,7 +19,7 @@ O projeto não requer instalação de dependências ou servidores locais.
 
 1. Clone este repositório:
    ```bash
-   git clone <URL_DO_SEU_REPOSITORIO>
+   git clone <https://github.com/Budaxz/ExercicioWeb8PedroBudasz.git>
 Navegue até a pasta galeria-multiverso.
 
 Dê um duplo clique no arquivo index.html para abri-lo em seu navegador.
